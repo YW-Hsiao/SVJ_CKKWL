@@ -1,0 +1,15 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py
+
+*.log
+*.hepmc
+*.root
+s-channel_ckkwl-v0/s
+s-channel_ckkwl-v1/s
+s-channel_ckkwl-v2/s
+s-channel_ckkwl-v2-X/s
+s-channel_ckkwl-v3/s

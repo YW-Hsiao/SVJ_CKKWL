@@ -5,11 +5,16 @@
 __pycache__/
 *.py
 
+# files
 *.log
 *.hepmc
 *.root
 *.npz
 *.csv
+
+# folders
+s
+s.tar.gz
 s-channel_ckkwl-v0/s
 s-channel_ckkwl-v1/s
 s-channel_ckkwl-v2/s

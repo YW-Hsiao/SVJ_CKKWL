@@ -11,6 +11,7 @@ __pycache__/
 *.root
 *.npz
 *.csv
+*.hepmc.gz
 
 # folders
 s

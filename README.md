@@ -1,10 +1,10 @@
 # SVJ_CKKWL
 SVJ with CKKW-L jet merging  
-## Abstract:
+## Abstract
 This repository try to modify the jet matching and merging algorithm of SVJ s-channel from MLM to CKKW-L.
 
 
-======
+------
 ## Contents
 1. [1. Introduction](#1. Introduction)
 2. [2. CKKW-L Settings](#2. CKKW-L Settings)
@@ -13,7 +13,7 @@ This repository try to modify the jet matching and merging algorithm of SVJ s-ch
 * [Bibliography](#Bibliography)
 
 
-======
+------
 ## 1. Introduction
 Introduction to every folder.  
 Follow the creating and my idea sequence.
@@ -52,7 +52,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 * PYTHIA_Experts_tms: Back up from `PYTHIA_Experts_tms`
 
 
-======
+------
 ## 2. CKKW-L Settings
 ### 2-1. MadGraph5_aMC@NLO parameters:
 1. `ickkw`
@@ -74,7 +74,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 8. `Merging:mayRemoveDecayProducts`
 
 
-======
+------
 ## 3. `s-channel_ckkwl-v1`
 * The results are consistent between approachs main89 and DelphesPythia8.
 * DP8 does NOT work when using the following commands:
@@ -84,7 +84,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
     ```
 
 
-======
+------
 ## 4. The Version of Simulation Tools
 * I use the R525 CPU server:
 * I use the docker image [alan200276/ubuntu](https://hub.docker.com/r/alan200276/ubuntu) by Alan Chung.
@@ -111,10 +111,10 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 </table>
 
 
-======
+------
 ## Bibliography
-[1] [Merging in Madgraph5 and Pythia8, a brief overview](https://indico.cern.ch/event/333239/contributions/777451/attachments/649911/893775/ERCWorkShop.pdf)
-[2] [stRoot](https://www.star.bnl.gov/webdata/dox/html/classPythia8_1_1MergingHooks.html)
+[1] [Merging in Madgraph5 and Pythia8, a brief overview](https://indico.cern.ch/event/333239/contributions/777451/attachments/649911/893775/ERCWorkShop.pdf)  
+[2] [stRoot](https://www.star.bnl.gov/webdata/dox/html/classPythia8_1_1MergingHooks.html)  
 [3] [Alan's Higgs-Classification vbf_boost.cmnd](https://github.com/alan200276/Higgs-Classification/blob/master/showering/vbf_boost.cmnd)
 
 ###### tags: `HEP`, `SVJ`, `CKKW-L`, `MG`, `PYTHIA`

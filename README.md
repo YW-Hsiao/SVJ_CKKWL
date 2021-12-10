@@ -6,15 +6,15 @@ This repository try to modify the jet matching and merging algorithm of SVJ s-ch
 
 ------
 ## Contents
-1. [1. Introduction](#1. Introduction)
-2. [2. CKKW-L Settings](#2. CKKW-L Settings)
-3. [3. `s-channel_ckkwl-v1`](#3. `s-channel_ckkwl-v1`)
-4. [4. The Version of Simulation Tools](4. The Version of Simulation Tools)
+1. [Introduction](#1.Introduction)
+2. [CKKW-L Settings](#2.CKKW-L_Settings)
+3. [`s-channel_ckkwl-v1`](#3.`s-channel_ckkwl-v1`)
+4. [The Version of Simulation Tools](4.The_Version_of_Simulation_Tools)
 * [Bibliography](#Bibliography)
 
 
 ------
-## 1. Introduction
+## 1.Introduction
 Introduction to every folder.  
 Follow the creating and my idea sequence.
 
@@ -53,7 +53,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 
 
 ------
-## 2. CKKW-L Settings
+## 2.CKKW-L_Settings
 ### 2-1. MadGraph5_aMC@NLO parameters:
 1. `ickkw`
 2. `xqcut`
@@ -62,6 +62,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 5. `dparameter`
 6. `ktdurham`
 7. `drjj`
+8. `auto_ptj_mjj`
 
 ### 2-2. PYTHIA8 parameters:
 1. `Merging:doKTMerging`
@@ -75,7 +76,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 
 
 ------
-## 3. `s-channel_ckkwl-v1`
+## 3.`s-channel_ckkwl-v1`
 * The results are consistent between approachs main89 and DelphesPythia8.
 * DP8 does NOT work when using the following commands:
     ```
@@ -85,7 +86,7 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 
 
 ------
-## 4. The Version of Simulation Tools
+## 4.The_Version_of_Simulation_Tools
 * I use the R525 CPU server:
 * I use the docker image [alan200276/ubuntu](https://hub.docker.com/r/alan200276/ubuntu) by Alan Chung.
 
@@ -117,4 +118,4 @@ This folder is the backup to submit to ATLAS PYTHIA experts.
 [2] [stRoot](https://www.star.bnl.gov/webdata/dox/html/classPythia8_1_1MergingHooks.html)  
 [3] [Alan's Higgs-Classification vbf_boost.cmnd](https://github.com/alan200276/Higgs-Classification/blob/master/showering/vbf_boost.cmnd)
 
-###### tags: `HEP`, `SVJ`, `CKKW-L`, `MG`, `PYTHIA`
+###### tags: `HEP`, `SVJ`, `MG`, `PYTHIA`, `CKKW-L`
